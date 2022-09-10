@@ -5,7 +5,7 @@ function bannerChanger(len){
 
     let imgCont = document.getElementById("banner-cont"); // image container
     let num = 100; // value to move the image left 
-    let limit = len*5; // making limit Eg. len = 5 then limit will be 500
+    let limit = len*100; // making limit Eg. len = 5 then limit will be 500
 
     let time = setInterval(() => {
         // sets an time intervel loop
