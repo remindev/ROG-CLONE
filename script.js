@@ -14,7 +14,7 @@ function bannerChanger(len){
 
         num=num+100; // adding the value of num for keep moving towards left
 
-        if(num==limit){
+        if(num>=limit){
             // checks if reach the end of the images || last image
 
             num = 0; // reset the value of num
